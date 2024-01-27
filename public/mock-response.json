@@ -1,18 +1,47 @@
 [
   {
-    "query": "start",
-    "response": "Bem vindo ao chatbot PerguntaUFOP. Comandos disponíveis: calendario, regimento, matricula"
+    "query": "Iniciar",
+    "response": ["Bem vindo ao chatbot PerguntaUFOP."]
   },
   {
-    "query": "calendario",
-    "response": "O calendário acadêmico da UFOP pode ser consultado no site oficial da universidade. Lá você encontrará informações sobre datas importantes, feriados, períodos de matrícula e mais."
+    "query": "Calendário",
+    "response": [
+      "O calendário acadêmico da UFOP pode ser consultado no site oficial da universidade. Lá você encontrará informações sobre datas importantes, feriados, períodos de matrícula e mais.",
+      "Segue abaixo o link para realizar o download do calendário acadêmico da UFOP:",
+      "https://www.prograd.ufop.br/sites/default/files/resolucao_congrad_99_anexo_0_presencial.pdf"
+    ]
   },
   {
-    "query": "regimento",
-    "response": "O Regimento Geral da UFOP contém informações sobre normas, direitos e deveres dos estudantes. Recomendo consultar o documento disponível no site oficial da universidade para detalhes específicos."
+    "query": "Regimento",
+    "response": [
+      "O Regimento Geral da UFOP contém informações sobre normas, direitos e deveres dos estudantes. Recomendo consultar o documento disponível no site oficial da universidade para detalhes específicos.",
+      "Segue abaixo o link para realizar o download do regimento geral da UFOP:",
+      "https://ufop.br/sites/default/files/cuni1959_alterada_3.docx.pdf"
+    ]
   },
   {
-    "query": "matricula",
-    "response": "Para informações sobre matrícula, acesse o sistema acadêmico da UFOP ou entre em contato com a secretaria do seu curso. Eles podem fornecer orientações específicas sobre o processo de matrícula."
+    "query": "Matrícula",
+    "response": [
+      "Link para os editais e convocações para matrículas:",
+      "http://www.vestibular.ufop.br/",
+      "Para efetuar o cancelamento de sua matrícula institucional na Universidade Federal de Ouro Preto (UFOP), o interessado deverá efetuar os seguintes passos:",
+      "1. Acessar o portal minhaUFOP em www.minha.ufop.br;\n2. Efetuar o cadastro em \"Meu Primeiro Acesso\" (caso ainda não tenha feito);\n3. Click em \"Protocolização de Requerimento\";\n4. Selecione o modelo de requerimento de \"Cancelamento de Matrícula\";\n5. Selecione o motivo do cancelamento;\n6. Declarar não possuir pendências com a Universidade;\n7. Click em \"Protocolizar\";\n8. Digite a senha do portal minhaUFOP para confirmação;\n9. Click em \"Protocolizar\" novamente;\n10. Para conferir o cancelamento, acesse novamente o portal MinhaUFOP e retire o certificado de cancelamento de matrícula (Serviços, Emissão de Documentos, Certificados Graduação e  selecionar Evasão).\nObs. Caso tenha mais de um vínculo com a UFOP, prestar atenção para a matrícula que realmente deseja cancelar. Duas (ou mais) abas com os números de matrícula aparecerão ao fazer o login no portal minhaUFOP."
+    ]
+  },
+  {
+    "query": "Boletins",
+    "response": [
+      "Os boletins administrativos da UFOP podem ser consultados no site oficial da universidade. Lá você encontrará informações sobre datas importantes, feriados, períodos de matrícula e mais.",
+      "Segue abaixo o link para visualizar os boletins administrativos da UFOP:",
+      "https://progep.ufop.br/boletins-administrativos-0"
+    ]
+  },
+  {
+    "query": "Teste",
+    "response": ["O teste falhou."]
+  },
+  {
+    "query": "NoResults",
+    "response": ["Não encontrei uma resposta para a sua pergunta. :("]
   }
 ]
