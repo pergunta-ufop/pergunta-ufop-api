@@ -1,0 +1,27 @@
+{
+  "name": "pergunta-ufop-api",
+  "version": "1.0.0",
+  "description": "O backend do *PerguntaUFOP* é responsável por lidar com as requisições do frontend e comunicar-se com a API do chatbot para fornecer respostas às consultas dos usuários da UFOP.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "live": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pergunta-ufop/pergunta-ufop-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pergunta-ufop/pergunta-ufop-api/issues"
+  },
+  "homepage": "https://github.com/pergunta-ufop/pergunta-ufop-api#readme"
+}

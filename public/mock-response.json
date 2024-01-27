@@ -1,0 +1,18 @@
+[
+  {
+    "query": "start",
+    "response": "Bem vindo ao chatbot PerguntaUFOP. Comandos disponíveis: calendario, regimento, matricula"
+  },
+  {
+    "query": "calendario",
+    "response": "O calendário acadêmico da UFOP pode ser consultado no site oficial da universidade. Lá você encontrará informações sobre datas importantes, feriados, períodos de matrícula e mais."
+  },
+  {
+    "query": "regimento",
+    "response": "O Regimento Geral da UFOP contém informações sobre normas, direitos e deveres dos estudantes. Recomendo consultar o documento disponível no site oficial da universidade para detalhes específicos."
+  },
+  {
+    "query": "matricula",
+    "response": "Para informações sobre matrícula, acesse o sistema acadêmico da UFOP ou entre em contato com a secretaria do seu curso. Eles podem fornecer orientações específicas sobre o processo de matrícula."
+  }
+]
